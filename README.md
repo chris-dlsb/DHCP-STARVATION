@@ -47,7 +47,7 @@ Para ejecutar esta herramienta se requiere:
 
 2.  **Ejecutar el script:**
     ```bash
-    sudo python3 nombre_script.py
+    sudo python3 dhcp_starvation.py
     ```
 
 ### Parámetros Configurados
