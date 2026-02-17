@@ -41,8 +41,8 @@ Para ejecutar esta herramienta se requiere:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/nombre-repo.git](https://github.com/tu-usuario/nombre-repo.git)
-    cd nombre-repo
+    git clone [https://github.com/tu-usuario/nombre-repo.git](https://github.com/tu-usuario/nombre-repo.git)](https://github.com/chris-dlsb/Ataque-de-Agotamiento-DHCP-DHCP-Starvation-.git)
+    cd Ataque-de-Agotamiento-DHCP-DHCP-Starvation
     ```
 
 2.  **Ejecutar el script:**
