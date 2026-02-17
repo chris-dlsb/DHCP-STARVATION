@@ -22,8 +22,8 @@ El entorno de pruebas fue desplegado utilizando **GNS3** con emulación de hardw
 
 
 ### Diagrama Lógico
-*(Aquí debes insertar tu captura de pantalla de GNS3 con la topología)*
-`![Topologia](./evidencias/topologia.png)`
+<img width="482" height="457" alt="Screenshot 2026-02-16 153116" src="https://github.com/user-attachments/assets/006a151a-8ec5-48eb-bc00-ed7fd5208f1f" />
+
 
 ##  Requisitos y Dependencias
 
