@@ -8,7 +8,7 @@
 Este repositorio contiene una Prueba de Concepto (PoC) desarrollada en Python utilizando el framework **Scapy**. 
 
 ## Objetivo del Script:
-** Ejecutar una Denegación de Servicio (DoS) mediante la inundación de solicitudes DHCP DISCOVER con direcciones MAC falsificadas aleatorias. El objetivo es agotar el pool de direcciones IP disponibles en el servidor DHCP legítimo, impidiendo que nuevos clientes se conecten a la red.
+Ejecutar una Denegación de Servicio (DoS) mediante la inundación de solicitudes DHCP DISCOVER con direcciones MAC falsificadas aleatorias. El objetivo es agotar el pool de direcciones IP disponibles en el servidor DHCP legítimo, impidiendo que nuevos clientes se conecten a la red.
 El script demuestra vulnerabilidades críticas en la Capa 2 (Enlace de Datos) del modelo OSI, permitiendo auditar la seguridad de la infraestructura de red conmutada.
 
 ## Topología y Escenario
@@ -17,7 +17,7 @@ El entorno de pruebas fue desplegado utilizando **GNS3** con emulación de hardw
 
 | Dispositivo | Rol | IP / Interfaz | Detalles |
 | :--- | :--- | :--- | :--- |
-| **Kali Linux** | Atacante | `10.14.14.66` / `eth0` | Origen de la inyección de paquetes. |
+| **Kali Linux** | Atacante | `10.14.14.6` / `eth0` | Origen de la inyección de paquetes. |
 | **Cisco IOU L3** | Gateway (Víctima) | `10.14.14.1` / `e0/0` | Router/Switch de borde. |
 | **Cisco IOU L2** | Switch de Acceso | N/A (Capa 2) | Dispositivo donde se inyecta tráfico. |
 | **VLAN** | Segmento | VLAN 1 (Nativa) | Red `10.14.14.0/24`. |
@@ -43,8 +43,8 @@ Para ejecutar esta herramienta se requiere:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/nombre-repo.git](https://github.com/tu-usuario/nombre-repo.git)](https://github.com/chris-dlsb/Ataque-de-Agotamiento-DHCP-DHCP-Starvation-.git)
-    cd Ataque-de-Agotamiento-DHCP-DHCP-Starvation
+    git clone (https://github.com/chris-dlsb/DHCP-STARVATION.git)
+    cd DHCP-STARVATION
     ```
 
 2.  **Ejecutar el script:**
