@@ -59,11 +59,13 @@ Para ejecutar esta herramienta se requiere:
 ## 📸 Evidencia de Funcionamiento (PoC)
 
 **1. Ejecución del Ataque:**
+
 <img width="634" height="103" alt="image" src="https://github.com/user-attachments/assets/bf6949d1-9794-4e03-b633-0a715933eefa" />
 
 
 
 **3. Impacto en la Víctima:**
+
 <img width="715" height="179" alt="image" src="https://github.com/user-attachments/assets/7e665b1d-120f-4f31-b922-2a28ba4b1c07" />
 
 ## 🛡️ Medidas de Mitigación
